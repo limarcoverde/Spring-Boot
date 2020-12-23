@@ -1,0 +1,10 @@
+POST http://localhost:8080/todos HTTP/1.1
+Content-type: application/json
+Accept: application/json
+
+
+{
+"title": "POO PROVA",
+"text": "Ola professor, iremos testar a aplicação",
+"done": "True"
+}
